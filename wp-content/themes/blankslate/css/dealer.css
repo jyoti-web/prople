@@ -1,0 +1,1703 @@
+/* ===================================================================
+*
+*  DealerShop v1.0 Main Overide Stylesheet
+*  05-04-2020
+*  ------------------------------------------------------------------
+*
+*  TOC:
+*  # base style overrides
+*    ## links
+*
+* =================================================================== */
+
+
+/* ===================================================================
+* # base style overrides
+*
+* ------------------------------------------------------------------- */
+
+
+/* ===================================================================
+* # header styles
+*
+* ------------------------------------------------------------------- */
+.s-header {
+  z-index: 500;
+  width: 100%;
+  height: 96px;
+  background-color: #000000;
+  position: Fixed;
+  top: 0px;
+  left: 0px;
+}
+
+/* -------------------------------------------------------------------
+* ## header logo
+* ------------------------------------------------------------------- */
+.header-logo {
+  z-index: 501;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 110px;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header-logo img {
+  width: 300px;
+  height: 50px;
+}
+
+.phone {
+  position: absolute;
+  right: 157px;
+  top: 45px;
+  height: auto;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.75rem;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 10px;
+  float: right;
+}
+
+.phone a {
+  color: #ec312e;
+}
+
+.phone_ico{
+  position: relative;
+  right: 300px;
+  top: 42px;
+  display: table;
+  float: right;
+}
+
+/* -------------------------------------------------------------------
+* home
+* ------------------------------------------------------------------- */
+.home-content h1 {
+  font-family:"helvetica", sans-serif;
+  font-size: 12.5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  color: #000000;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
+
+.home-content h1 + p {
+  font-family:"helvetica", sans-serif;
+  font-size: 2.3rem;
+  line-height: 2;
+  color: #616060;
+  padding-top: 25rem;
+  position: relative;
+}
+
+.home-content {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  padding-bottom: 15.6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-content__main {
+  padding-top: 15rem;
+  /*padding-right: 20rem;*/
+  position: relative;
+  background-image:url(../images/DealerShop_hero-GN-bg.jpg);
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: 90% auto;
+}
+
+.home-content a{
+  text-decoration: underline;
+  color: #616060;
+}
+
+.home-content a:hover,
+.home-content a:focus,
+.home-content a:active {
+  color: #ec312e;
+}
+
+/* ===================================================================
+* # photo
+*
+* ------------------------------------------------------------------- */
+.s-photo {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.s-photo .col {
+  display: block;
+  float:left;
+  margin: 0px;
+  padding: 5px;
+}
+
+/* ===================================================================
+* # partners
+*
+* ------------------------------------------------------------------- */
+.s-partners {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.s-partners .col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% .8%;
+  padding: 5px;
+}
+}
+
+
+/* ===================================================================
+* # product
+*
+* ------------------------------------------------------------------- */
+#product
+.subhead {
+  color: #ffffff;
+}
+
+.display-2 {
+  font-family: "helvetica", sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.display-2a {
+  font-family: "helvetica", sans-serif;
+  font-size: 16.6rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  margin-top: -2rem;
+  margin-bottom: 0;
+}
+
+.display-2b {
+  font-family: "helvetica", sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  margin-top: -.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-title{
+  font-family: "helvetica", sans-serif;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.product-text {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.s-product li {padding-top: 1px;}
+
+.s-product {
+  padding-top:15rem;
+  padding-bottom:15rem;
+}
+
+.s-product .subhead {
+  color: #ffffff;
+}
+
+
+/* -------------------------------------------------------------------
+* About
+* ------------------------------------------------------------------- */
+
+.display-1 {
+  font-family: "helvetica", sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.3;
+  color: #000000;
+  letter-spacing: -0.03rem;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.about-text{
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: normal;
+  color: #555555;
+}
+
+.about-text h4 {
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  font-size: 2.3rem;
+  line-height: 2;
+  font-family: "helvetica", sans-serif;
+  font-weight: bold;
+}
+
+
+/* -------------------------------------------------------------------
+* Locations
+* ------------------------------------------------------------------- */
+#location {
+  position: relative;
+  height: 1000px;
+}
+
+#location .section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  width: 775px;
+  height: auto;
+  float: right;
+  Background-color:#ffffff;
+}
+
+#location .row{
+  Margin-bottom: 5rem;
+}
+
+.s-location li{
+  padding-top:0;
+}
+
+.s-location {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: normal;
+  color: #666666;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.location-title {
+  color: #000000;
+  font-family: "helvetica", sans-serif;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* -------------------------------------------------------------------
+* History
+* ------------------------------------------------------------------- */
+#history {
+  background-color: #ec312e;
+  position: relative;
+  color: #ffffff;
+}
+
+.s-history{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+#history .display-1 {
+  font-family: "helvetica", sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.3;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+#history .subhead {
+  color: #ffffff;
+}
+
+#history .lead{
+  color: #ffffff;
+}
+
+#history p.lead {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  margin-bottom: 3.6rem;
+  color: #ffffff;
+}
+
+#history .process__col::before {
+  content: attr(data-item);
+  display: block;
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  height: 65px;
+  width: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #ffffff;
+  position: absolute;
+  /*left: 20px;*/
+  top: 0;
+}
+
+#history .process__col {
+  position: relative;
+  min-height: 10.6rem;
+  font-weight:bold;
+}
+
+.history__text {
+  margin-left: 10rem;
+  padding-right: 30px;
+}
+
+.history__vline-left,
+.history__vline-right {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color:#000000;
+  position: absolute;
+}
+
+.history__vline-left {
+  top: 30px;
+  left: calc(60px + 6px);
+}
+
+.history__vline-right {
+  top: 30px;
+  left: calc(56% + 1px);
+}
+
+#history h4{
+  font-size: 1.75rem;
+  line-height: 1.75;
+  color: #ffffff;
+  margin-top: 1.9rem;
+  margin-bottom: 1.8rem;
+}
+
+/* -------------------------------------------------------------------
+* Leadership
+* ------------------------------------------------------------------- */
+.s-leadership {
+  background: #ffffff;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  position: relative;
+}
+
+/* -------------------------------------------------------------------
+* News
+* ------------------------------------------------------------------- */
+.s-news {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  color: #555555;
+  position: relative;
+}
+
+.s-news a{
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight:bold;
+  text-decoration: underline;
+  color:#000000;
+}
+.s-news p{
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: normal;
+  color:#000000;
+}
+
+.s-news img{
+  margin-bottom:3rem;
+}
+
+/* -------------------------------------------------------------------
+* Member
+* ------------------------------------------------------------------- */
+
+.s-member {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  color: #555555;
+  position: relative;
+}
+
+#member h3{
+  color: #ffffff;
+}
+
+#member .display-1 {
+  font-size: 7rem;
+  color: #ffffff;
+}
+
+#member p{
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-family: "helvetica", sans-serif;
+  line-height: 1.75;
+}
+
+#member p.lead{
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-family: "helvetica", sans-serif;
+  line-height: 1.75;
+  margin-bottom: 3.6rem;
+}
+
+/* -------------------------------------------------------------------
+* TOS
+* ------------------------------------------------------------------- */
+.s-tos{
+  background-color:#000000;
+  color:#ffffff;
+  padding-top:15rem;
+  padding-bottom:15rem;
+  height:800px;
+  border-bottom: 5px solid red;
+}
+
+.tos .subhead{
+  color:#ffffff;
+  margin-top:1rem;
+}
+
+.tos {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  margin-top:5px;
+}
+
+/* -------------------------------------------------------------------
+* Footer
+* ------------------------------------------------------------------- */
+.s-footer{
+  background-color:#000000;
+  color:#ffffff;
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+.footer .subhead{
+  color:#ffffff;
+  margin-top:1rem;
+}
+.footer{
+  background-color:#000000;
+  color:#ffffff;
+}
+
+/* -------------------------------------------------------------------
+* Columns
+* ------------------------------------------------------------------- */
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% .8%;
+  padding: 15px;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.6%;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.4%; }
+.span_1_of_3 { width: 32.8%; }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.6%;
+}
+.span_2_of_4 {
+  width: 49.2%;
+}
+.span_1_of_4 {
+  width: 23.8%;
+}
+
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+  width: 100%;
+}
+.span_4_of_5 {
+  width: 79.8%;
+}
+.span_3_of_5 {
+  width: 59.6%;
+}
+.span_2_of_5 {
+  width: 39.4%;
+}
+.span_1_of_5 {
+  width: 19.2%;
+}
+
+
+
+/* -------------------------------------------------------------------
+* responsive:
+* Styles
+* ------------------------------------------------------------------- */
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+
+@media only screen and (max-width: 1600px){
+  .header-logo {
+    left: 60px;
+  }
+
+  .header-menu-toggle {
+    right: 60px;
+  }
+
+  .phone {
+    right: 110px;
+  }
+
+  .phone_ico{
+    right: 260px;
+  }
+}
+
+@media only screen and (max-width: 1440px){
+  .row {
+    width: 89%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .home-content__main {
+    padding-top: 15rem;
+    position: relative;
+    background-image: url(../images/DealerShop_hero-GN-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 80px;
+    background-size: 50%;
+  }
+
+  .home-content h1 {
+    font-size: 8.5rem;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+  }
+
+  .home-content h1 + p {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    padding-top: 2%;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .s-home .col {
+    padding: 4px 50px;
+  }
+
+  .s-home img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .subhead {
+    font-size: 1.5rem;
+    line-height: 1.3125;
+    margin-bottom: 1rem;
+  }
+
+  .display-1 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+  }
+
+  .s-product {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .display-2 {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .display-2a {
+    font-size: 12rem;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+  .display-2b {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.03rem;
+    margin-top: -.6rem;
+    margin-bottom: .5rem;
+  }
+
+  .product-title {
+    font-size: 1.75rem;
+    line-height: 1.6rem;
+  }
+
+  .product-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .s-product li {
+    padding-top: 0px;
+  }
+
+  .s-about {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .about-text h4 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .row .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .s-partners {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .s-partners img{
+    max-width: 90%;
+    height: auto;
+  }
+  .s-partners .col {
+    margin: 0 0 1% .8%;
+    padding: 5px;
+  }
+  .s-location {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  #location .section {
+    width: auto;
+    height: auto;
+  }
+
+  #history .display-1 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+  }
+
+  .s-history {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  #history p.lead {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: .1rem;
+  }
+
+  #history .process__col {
+    min-height: 9.25rem;
+  }
+
+  .history__text {
+    margin-left: 10rem;
+    padding-right: 0px;
+  }
+  #history h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .history__vline-right {
+    left: calc(56% + 12px);
+  }
+
+  .s-leadership {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .testimonials__author {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .testimonials__author span {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .testimonials {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .s-news {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .s-news .section {
+    padding: 0 20px;
+  }
+
+  .s-news a {
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .s-news p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .s-news .col {
+    padding:0px;
+  }
+  .s-member {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    height:766px;
+  }
+
+  #member p.lead {
+    font-size: 3rem;
+    line-height: 1.6;
+    margin-bottom: 0rem;
+  }
+
+  .s-contact {
+    padding-top: 12rem;
+  }
+
+  .s-tos {
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    height: 600px;
+    border-bottom: 5px solid red;
+  }
+
+}
+
+@media only screen and (max-width: 900px){
+  .home-content__main {
+    background-position: center 80px;
+    background-size: 60%;
+  }
+
+  .s-news a{
+    font-size:1.5rem;
+    line-height:1.6rem;
+  }
+
+  .s-news p{
+    font-size:1.5rem;
+    line-height:1.6rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-logo {
+    left: 40px;
+  }
+
+  .header-menu-toggle {
+    right: 40px;
+    top: 40px;
+  }
+
+  .phone {
+    right: 90px;
+  }
+
+  .phone_ico{
+    right: 240px;
+  }
+
+  .icon {
+    width:50%;
+    margin-left: 25%;
+  }
+
+  .home-content h1 {
+    font-size: 6.5rem;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 8rem;
+    margin-top: 1rem;
+  }
+  
+  .logo{
+    width:100%;
+    margin:0;
+  }
+
+  #home p {
+    padding-top: 1rem;
+    font-size: 1.75rem;
+    line-height: 1.75;
+  }
+
+  .s-product {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .s-product .col {
+    margin: 1% 0 1% .8%;
+    padding: 1px;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .quote {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    padding: 5px;
+  }
+
+  .s-partners {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .location-title {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  #location {
+    height: 800px;
+  }
+
+  #location .section {
+    width: auto;
+    height: auto;
+  }
+
+  .s-location {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  #history p.lead {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  #history h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .s-history{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .history__vline-right {
+    left: calc(59% + 1px);
+  }
+
+  .s-leadership {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  
+  .testimonials {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+  .s-news {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .s-news a{
+    font-size:1.5rem;
+    line-height:1.6rem;
+  }
+
+  .s-news p{
+    font-size:1.5rem;
+    line-height:2rem;
+  }
+
+  .s-news  .col {
+    padding: 5px;
+  }
+
+  .s-member {
+    height: auto;
+  }
+
+  #member p.lead {
+    font-size: 2.25rem;
+    line-height: 1.75;
+    margin: 0;
+    Padding-top: 2px;
+  }
+  #member .display-1 {
+    font-size: 5rem;
+    line-height:1;
+  }
+
+  .s-tos {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    height: 800px;
+  }
+
+  .tos {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-top: 10px;
+  }
+
+  .s-footer {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .contact-social {
+    font-size: 2rem;
+    display:inline-block;
+    padding:10px 0;
+    margin: 0 2rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .phone {
+    visibility: hidden;
+    display: none;
+  }
+
+  .phone_ico{
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .span_1_of_5 {
+    width: 30.2%;
+  }
+
+  .s-home .row {
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .display-1{
+    font-size:3.75rem
+  }
+
+  .display-2, .display-2b {
+    font-size: 2rem;
+  }
+
+  .display-2a {
+    font-size: 10rem;
+  }
+
+  .subhead{
+    font-size:1.4rem
+  }
+
+  ol, ul {
+    margin-left: .1rem;
+    margin-bottom: .1rem;
+  }
+
+  .product-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .s-product  .col {
+    padding: 5px;
+  }
+
+  .s-photo{
+    visibility: hidden;
+    display: none;
+  }
+
+  .s-header {
+    height: 90px;
+    top: 0px;
+  }
+
+  .header-logo {
+    left: 30px;
+  }
+  .header-logo img {
+    width: 180px;
+    height: 34px;
+  }
+
+  .header-menu-toggle {
+    right: 25px;
+    top: 40px;
+  }
+
+  .header-menu-toggle::before {
+    display: none;
+  }
+  .phone_ico{
+    right: 80px;
+  }
+
+  #home p {
+    font-size: 1.6rem;
+    line-height:1.6rem;
+  }
+
+  .home-content h1 {
+    font-size: 7rem;
+    line-height:1;
+    margin-bottom: 11rem;
+    margin-top: 8rem;
+  }
+
+  .about-text h4 {
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    line-height: 2;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  #location {
+    height: 800px;
+  }
+
+  #location .section {
+    width: auto;
+    height: auto;
+  }
+
+  .location-title {
+    font-size: 2rem;
+    line-height: 2;
+  }
+
+  .s-location {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .s-history .span_1_of_2 {
+    width: 100%;
+  }
+  .history__vline-left {
+    left: calc(50px + 7px);
+  }
+
+  .history__vline-right {
+    visibility: hidden;
+    display: none;
+  }
+
+  .s-history  .col {
+    padding: 0 15px;
+    margin:0;
+  }
+
+  #history .display-1 {
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
+
+  #history p.lead {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  #history h4 {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .s-news .col {
+    padding: 5px;
+  }
+
+  .s-tos {
+    height: 800px;
+  }
+
+  .tos {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-top: 10px;
+  }
+
+  .s-footer {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .contact-social {
+    font-size: 2rem;
+    display:block;
+    padding:10px 0;
+  }
+
+  .cl-go-top {
+    visibility: hidden;
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+    padding: 0 10px;
+  }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+    width: 100%;
+  }
+  .span_2_of_2, .span_1_of_2 {
+    width: 100%;
+  }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 {
+    width: 100%;
+  }
+
+  .span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 {
+    width: 31%;
+  }
+
+  .home-content {
+    padding-bottom: 8.6rem;
+  }
+
+  .home-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    font-weight: bold;
+  }
+
+  .home-content__main {
+    padding-top: 1rem;
+    position: relative;
+    background-image: url(../images/DealerShop_hero-GN-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-size: 90% auto;
+  }
+
+  #home p {
+    padding-top: 5.5rem;
+    font-size: 1.5rem;
+    line-height:1.6;
+  }
+
+  .s-header {
+    top: 0px;
+  }
+
+  .header-logo {
+    left: 25px;
+  }
+
+  .header-logo img img {
+    width: 141px;
+    height: 27px;
+  }
+
+  .header-menu-toggle {
+    top: 40px;
+    right: 15px;
+  }
+
+  .phone_ico{
+    right: 70px;
+  }
+
+  .display-1 {
+    font-size: 3rem;
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+  }
+  .product-text {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .icon {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .about-text h4 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  #location{
+    height:800px;
+  }
+
+  #location .section {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #location .row {
+    Margin-bottom: 1rem;
+  }
+
+  .s-location {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .location-title {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  #history {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  #history .display-1 {
+    font-size: 3rem;
+  }
+
+  #history p.lead {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .history__text {
+    padding-top: 1px;
+  }
+
+  #history h4 {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .history__vline-left {
+    left: calc(50px + 1px);
+  }
+
+  .history__vline-right {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  .testimonials__author span {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .testimonials {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .testimonials__slide {
+    text-align: justify;
+  }
+
+  .s-news img {
+    margin-bottom: 1.5rem;
+  }
+
+  .s-tos {
+    height: 600px;
+  }
+
+  .tos {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+
+  .s-footer {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .contact-social {
+    font-size: 2rem;
+    display:block;
+    padding:10px 0;
+  }
+
+  .cl-copyright {
+    margin-bottom: 2rem;
+    margin-top:2rem;
+  }
+
+  .cl-go-top {
+    visibility: hidden;
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 400px) {
+  .history__vline-left {
+    left: calc(40px + 3px);
+  }
+}
+
+
+/* -------------------------------------------------------------------
+* FORM
+* Styles
+* ------------------------------------------------------------------- */
+
+
+#contact p {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.65rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #555555;
+}
+
+
+.ds-form {
+  margin-top:40px;
+  margin-bottom:40p;
+  margin-left:20px;
+  margin-right:0px;
+}
+
+.formrow {
+  padding-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+
+.formcol1, .formcol2, .formcol3, .formcol4, .formcol5, .formcol6 {
+  width: 49%;
+  float: left;
+}
+
+.formcol7 {
+  width: 98%;
+  float: left;
+}
+
+.field {
+  width:90%;
+}
+
+.field2 {
+  width:95%;
+}
+
+.ds-form .label {
+  text-transform:uppercase;
+}
+
+.ds-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-btn {
+    transition: none;
+  }
+}
+
+.ds-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.ds-btn:focus, .ds-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.ds-btn-primary {
+  color: #fff;
+  background-color: #ec312e;
+  border-color: #ec312e;
+}
+
+.ds-btn-primary:hover {
+  color: #fff;
+  background-color: #ec312e;
+  border-color: #ec312e;
+}
+
+.ds-btn-primary:focus, .ds-btn-primary.focus {
+  color: #fff;
+  background-color: #ec312e;
+  border-color: #ec312e;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ds-btn-lg, .ds-btn-group-lg>.ds-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.ds-btn-block {
+  display: block;
+  width: 200px;
+}
+
+.ds-btn-block+.ds-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].ds-btn-block, input[type="reset"].ds-btn-block, input[type="button"].ds-btn-block {
+  width: 200px;
+}
+
+
+
+/* -------------------------------------------------------------------
+* Applying an error class means we keep browser level feedback, error handling, and focus management.
+* ------------------------------------------------------------------- */ 
+input.error,
+select.error,
+textarea.error {
+  outline: none;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  
+  // Use CSS to visually restore valid fields
+  &:valid {
+    border-style: auto;
+    border-color: inherit;
+  }
+}
+
+/* ===================================================================
+* # Press Release styles
+*
+* ------------------------------------------------------------------- */
+.s-press{
+  font-family: "helvetica", sans-serif;
+  text-align: left;
+  color:#555555;
+  Background-color:#f1f1f1;
+  Height:auto;
+  width:100%;
+  padding-top: 12rem;
+}
+
+.press h1 {
+  font-size: 2.25rem;
+  line-height: 1.75;
+  font-weight:bold;
+  text-align: left;
+  color:#000000;
+}
+.color {
+  color:#ec312e;
+  font-weight:normal;
+}
+
+.date{
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-weight:normal;
+}
+
+.press-title{
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight:bold;
+  text-align: left;
+  color:#000000;
+  margin-bottom:10px;
+}
+
+.press-text{
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-weight:normal;
+}
+
+.press-subhead{
+  font-size: 1.75rem;
+  line-height: 1.75;
+  font-weight:bold;
+  color:#000000;
+}
+
+@media only screen and (max-width: 800px) {
+  .press h1 {
+    font-size: 2rem;
+  }
+  .color {
+    color:#ec312e;
+    font-weight:normal;
+  }
+
+  .date{
+    font-size: 1.75rem;
+  }
+
+  .press-title{
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+  .press-text{
+    font-size: 1.5rem;
+  }
+
+  .press-subhead{
+    font-size: 1.5rem;
+  }
+}

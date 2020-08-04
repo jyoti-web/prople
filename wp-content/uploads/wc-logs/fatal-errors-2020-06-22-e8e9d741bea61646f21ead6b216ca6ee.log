@@ -1,0 +1,10 @@
+2020-06-22T07:52:46+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce/vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\facebook-for-woocommerce.php on line 127
+
+2020-06-22T07:52:54+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce/vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\facebook-for-woocommerce.php on line 127
+
+2020-06-22T07:53:01+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce/vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\facebook-for-woocommerce.php on line 127
+
+2020-06-22T07:53:30+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce/vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\facebook-for-woocommerce.php on line 127
+
+2020-06-22T07:53:34+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce/vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\facebook-for-woocommerce\facebook-for-woocommerce.php on line 127
+
